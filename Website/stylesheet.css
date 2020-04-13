@@ -1,0 +1,81 @@
+body{
+    background-color:gray;
+}
+#lattitude {
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    background: teal;
+    padding: 0.5rem 0.5rem;
+}
+
+/* navbar dropdown click color */
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #EAEBC8;
+}
+
+/* stretches page content to screen */
+.container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* header text formatting */
+.header-text {
+    color: teal;
+    font-family: Georgia, serif;
+} 
+
+/* floats image inside summary text box on index page */
+#img-float {
+    float: left;
+    width: 300px;
+}
+
+/* shrinks images inside cols */
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* sets navbar and jumbotron container bg color */
+.jumbotron, .navbar-light {
+    background-color: #FFFFFF;
+}
+
+/* reduces bootsrap default padding */
+.jumbotron {
+    padding: 3rem 2rem;
+}
+
+/* puts border around active viz sidebar image */
+.hover-bord:hover, .hover-bord:active { 
+    border-width: 2px; 
+    border-color: teal;
+    border-style: solid;
+}
+
+/* set body and navbar item click color to same */
+body, .nav-item:hover, 
+.table .thead-light th {
+    background-color: #EAEBC8;
+}
+
+/* data table formatting */
+.table-striped tbody tr:hover {
+    background-color: gray;
+  }
+  .table-striped tbody tr:nth-of-type(odd) {
+      background-color: #F7F8CD;
+  }
+
+/* footer */
+html {
+    position: relative; 
+    min-height: 100%;
+}
+
+.content-wrap {
+    margin-bottom: 50px;
+} 
+
+
